@@ -1,0 +1,32 @@
+<div class="container text-center card bg-light col-md-6">
+   <form action="/toy/add" method="post">
+      <h1 class="alert alert-warning text-uppercase">Add new products</h1>
+      <div class="form-group mt-3">
+         <label class="text text-danger fw-bold">Name</label>
+         <input class="form-control" type="text" placeholder="Enter toy title" name="title" required minlength="5" >
+      </div>
+      
+      <div class="form-group mt-3">
+         <label class="text text-danger fw-bold">Price</label>
+         <input class="form-control" type="number" name="price" placeholder="Enter toy price">
+      </div>
+
+       <div class="form-group mt-3">
+         <label class="text text-danger fw-bold">Categories</label>
+         <select class="form-control" name="Categories">
+            {{#each categories }}
+               <option value="{{_id}}">{{ name }}</option>
+            {{/each}}
+         </select>
+      </div>
+
+
+      <div class="form-group mt-3">
+         <label class="text text-danger fw-bold">Cover</label>
+         <input class="form-control" type="url" name="cover" placeholder="Enter toy cover url" required>
+      </div>
+      <div class="form-group mt-3 mb-3">
+         <input class="btn btn-success" type="submit" value="Add">
+      </div>
+   </form>
+</div>

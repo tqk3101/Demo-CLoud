@@ -1,0 +1,56 @@
+[
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a5947a"
+    },
+    "title": "LEGO Classic Bricks",
+    "genre": "Building Set",
+    "cover": "https://m.media-amazon.com/images/I/81Z4l6Mb3gL._AC_SY679_.jpg",
+    "price": 30.99
+  },
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a5947b"
+    },
+    "title": "Barbie Dreamhouse",
+    "genre": "Dollhouse",
+    "cover": "https://m.media-amazon.com/images/I/71KrY8rS-XL._AC_SY679_.jpg",
+    "price": 199.99
+  },
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a5947e"
+    },
+    "title": "Hot Wheels Track Set",
+    "genre": "Toy Vehicles",
+    "cover": "https://m.media-amazon.com/images/I/81+S+4YTSvL._AC_SY679_.jpg",
+    "price": 49.99
+  },
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a59480"
+    },
+    "title": "NERF Elite Blaster",
+    "genre": "Outdoor Toy",
+    "cover": "https://m.media-amazon.com/images/I/81UrZ6SkpLL._AC_SY679_.jpg",
+    "price": 24.88
+  },
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a59481"
+    },
+    "title": "Play-Doh Compound",
+    "genre": "Creative Toy",
+    "cover": "https://m.media-amazon.com/images/I/91GtiLJ+DjL._AC_SY679_.jpg",
+    "price": 8.99
+  },
+  {
+    "_id": {
+      "$oid": "66a9a2c07bb3ec9644a59482"
+    },
+    "title": "Transformers Optimus Prime",
+    "genre": "Action Figure",
+    "cover": "https://m.media-amazon.com/images/I/81J-NiHfcmL._AC_SY679_.jpg",
+    "price": 29.99
+  }
+]
